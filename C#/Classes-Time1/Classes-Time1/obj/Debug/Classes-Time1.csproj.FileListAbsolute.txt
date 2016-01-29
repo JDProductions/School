@@ -1,0 +1,6 @@
+D:\School\School\C#\Classes-Time1\Classes-Time1\bin\Debug\Classes-Time1.exe.config
+D:\School\School\C#\Classes-Time1\Classes-Time1\bin\Debug\Classes-Time1.exe
+D:\School\School\C#\Classes-Time1\Classes-Time1\bin\Debug\Classes-Time1.pdb
+D:\School\School\C#\Classes-Time1\Classes-Time1\obj\Debug\Classes-Time1.csprojResolveAssemblyReference.cache
+D:\School\School\C#\Classes-Time1\Classes-Time1\obj\Debug\Classes-Time1.exe
+D:\School\School\C#\Classes-Time1\Classes-Time1\obj\Debug\Classes-Time1.pdb
