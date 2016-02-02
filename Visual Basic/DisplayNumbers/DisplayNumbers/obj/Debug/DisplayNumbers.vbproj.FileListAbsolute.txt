@@ -1,0 +1,11 @@
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\bin\Debug\DisplayNumbers.exe.config
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.vbprojResolveAssemblyReference.cache
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.Form1.resources
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.Resources.resources
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.vbproj.GenerateResource.Cache
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\bin\Debug\DisplayNumbers.exe
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\bin\Debug\DisplayNumbers.pdb
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\bin\Debug\DisplayNumbers.xml
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.exe
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.xml
+D:\School\School\Visual Basic\DisplayNumbers\DisplayNumbers\obj\Debug\DisplayNumbers.pdb
