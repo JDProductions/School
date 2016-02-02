@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lbl2 = New System.Windows.Forms.Label()
         Me.btn1 = New System.Windows.Forms.Button()
@@ -44,8 +45,9 @@ Partial Class Form1
         '
         'lbl2
         '
+        Me.lbl2.BackColor = System.Drawing.SystemColors.Highlight
         Me.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lbl2.Location = New System.Drawing.Point(138, 281)
+        Me.lbl2.Location = New System.Drawing.Point(62, 290)
         Me.lbl2.Name = "lbl2"
         Me.lbl2.Size = New System.Drawing.Size(424, 46)
         Me.lbl2.TabIndex = 1
@@ -53,52 +55,59 @@ Partial Class Form1
         'btn1
         '
         Me.btn1.AutoSize = True
-        Me.btn1.Location = New System.Drawing.Point(236, 106)
+        Me.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn1.Image = CType(resources.GetObject("btn1.Image"), System.Drawing.Image)
+        Me.btn1.Location = New System.Drawing.Point(92, 46)
         Me.btn1.Name = "btn1"
-        Me.btn1.Size = New System.Drawing.Size(75, 27)
+        Me.btn1.Size = New System.Drawing.Size(95, 150)
         Me.btn1.TabIndex = 2
         Me.btn1.Text = "1"
         Me.btn1.UseVisualStyleBackColor = True
         '
         'btn2
         '
-        Me.btn2.Location = New System.Drawing.Point(236, 176)
+        Me.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn2.Image = CType(resources.GetObject("btn2.Image"), System.Drawing.Image)
+        Me.btn2.Location = New System.Drawing.Point(184, 46)
         Me.btn2.Name = "btn2"
-        Me.btn2.Size = New System.Drawing.Size(75, 23)
+        Me.btn2.Size = New System.Drawing.Size(95, 150)
         Me.btn2.TabIndex = 3
         Me.btn2.Text = "2"
         Me.btn2.UseVisualStyleBackColor = True
         '
         'btn3
         '
-        Me.btn3.Location = New System.Drawing.Point(236, 232)
+        Me.btn3.Image = CType(resources.GetObject("btn3.Image"), System.Drawing.Image)
+        Me.btn3.Location = New System.Drawing.Point(300, 46)
         Me.btn3.Name = "btn3"
-        Me.btn3.Size = New System.Drawing.Size(75, 23)
+        Me.btn3.Size = New System.Drawing.Size(95, 150)
         Me.btn3.TabIndex = 4
         Me.btn3.Text = "3"
         Me.btn3.UseVisualStyleBackColor = True
         '
         'btn4
         '
-        Me.btn4.Location = New System.Drawing.Point(466, 108)
+        Me.btn4.Image = CType(resources.GetObject("btn4.Image"), System.Drawing.Image)
+        Me.btn4.Location = New System.Drawing.Point(397, 46)
         Me.btn4.Name = "btn4"
-        Me.btn4.Size = New System.Drawing.Size(75, 23)
+        Me.btn4.Size = New System.Drawing.Size(95, 150)
         Me.btn4.TabIndex = 5
         Me.btn4.Text = "4"
         Me.btn4.UseVisualStyleBackColor = True
         '
         'btn5
         '
-        Me.btn5.Location = New System.Drawing.Point(466, 167)
+        Me.btn5.Image = CType(resources.GetObject("btn5.Image"), System.Drawing.Image)
+        Me.btn5.Location = New System.Drawing.Point(501, 46)
         Me.btn5.Name = "btn5"
-        Me.btn5.Size = New System.Drawing.Size(75, 23)
+        Me.btn5.Size = New System.Drawing.Size(95, 150)
         Me.btn5.TabIndex = 6
         Me.btn5.Text = "5"
         Me.btn5.UseVisualStyleBackColor = True
         '
         'btn6
         '
-        Me.btn6.Location = New System.Drawing.Point(294, 350)
+        Me.btn6.Location = New System.Drawing.Point(296, 380)
         Me.btn6.Name = "btn6"
         Me.btn6.Size = New System.Drawing.Size(75, 23)
         Me.btn6.TabIndex = 7
