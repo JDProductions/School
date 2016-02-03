@@ -73,17 +73,19 @@ namespace PopulationData
         private static int Average(List<int> PopulationList)
 
         {
-            int i;
+            int total = 0;
             int average = 0;
 
-            for (i = 1; i < PopulationList.Count(); i++)
+            for (int i  = 0; i < PopulationList.Count(); i++)
             {
-                average = (int) i / PopulationList.Count();
+                total += PopulationList[i];
                 //theChange = PopulationList[i] + PopulationList[i/ PopulationList.Count();
                 var test = "";
                 
 
             }
+            average = (int)total / PopulationList.Count();
+
 
             return average;
 
