@@ -1,0 +1,6 @@
+D:\School\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.exe.config
+D:\School\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.csprojResolveAssemblyReference.cache
+D:\School\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.exe
+D:\School\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.pdb
+D:\School\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.exe
+D:\School\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.pdb

@@ -1,3 +1,13 @@
 D:\sovb12\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.Form1.resources
 D:\sovb12\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.Resources.resources
 D:\sovb12\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.vbproj.GenerateResource.Cache
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.vbprojResolveAssemblyReference.cache
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.Form1.resources
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.Resources.resources
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.vbproj.GenerateResource.Cache
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.xml
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\bin\Debug\Error1.exe
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\bin\Debug\Error1.pdb
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\bin\Debug\Error1.xml
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.exe
+D:\School\School\Visual Basic\Student Sample Programs\Chap2\Error1\Error1\obj\x86\Debug\Error1.pdb

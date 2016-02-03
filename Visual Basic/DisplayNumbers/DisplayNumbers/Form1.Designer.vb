@@ -47,7 +47,7 @@ Partial Class Form1
         '
         Me.lbl2.BackColor = System.Drawing.SystemColors.Highlight
         Me.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lbl2.Location = New System.Drawing.Point(62, 290)
+        Me.lbl2.Location = New System.Drawing.Point(143, 293)
         Me.lbl2.Name = "lbl2"
         Me.lbl2.Size = New System.Drawing.Size(424, 46)
         Me.lbl2.TabIndex = 1

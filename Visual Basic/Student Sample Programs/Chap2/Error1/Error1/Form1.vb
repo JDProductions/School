@@ -2,7 +2,7 @@
 
     Private Sub btnShow_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShow.Click
         ' Show the world.
-        picWorld_Visible = True
+        picWorld.Visible = True
     End Sub
 
     Private Sub btnClose_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClose.Click
