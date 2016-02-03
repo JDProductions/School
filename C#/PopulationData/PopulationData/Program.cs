@@ -84,7 +84,7 @@ namespace PopulationData
                 
 
             }
-            average = (int)total / PopulationList.Count();
+            average = total / PopulationList.Count();
 
 
             return average;
