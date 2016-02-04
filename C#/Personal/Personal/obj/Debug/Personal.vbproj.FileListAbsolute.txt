@@ -1,0 +1,11 @@
+D:\School\School\C#\Personal\Personal\bin\Debug\Personal.exe.config
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.vbprojResolveAssemblyReference.cache
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.Form1.resources
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.Resources.resources
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.vbproj.GenerateResource.Cache
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.xml
+D:\School\School\C#\Personal\Personal\bin\Debug\Personal.exe
+D:\School\School\C#\Personal\Personal\bin\Debug\Personal.pdb
+D:\School\School\C#\Personal\Personal\bin\Debug\Personal.xml
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.exe
+D:\School\School\C#\Personal\Personal\obj\Debug\Personal.pdb
