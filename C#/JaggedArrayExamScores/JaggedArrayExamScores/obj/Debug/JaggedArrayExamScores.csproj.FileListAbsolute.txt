@@ -1,0 +1,6 @@
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.exe.config
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.exe
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.pdb
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.exe
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.pdb
+D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.csprojResolveAssemblyReference.cache
