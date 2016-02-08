@@ -20,19 +20,29 @@ namespace ExamScores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            StreamWriter section1;
             StreamWriter section2;
             StreamWriter section3;
             StreamReader section1read;
             StreamReader section2read;
             StreamReader section3read;
 
+            try
+            {   // Open the text file using a stream reader.
+                using (StreamReader sr = new StreamReader("Section1.txt"))
+                {
+                    // Read the stream to a string, and write the string to the console.
+                    String line = sr.ReadToEnd();
+                    Console.WriteLine(line);
+                }
+            }
+            catch (Exception etext)
+            {
+                Console.WriteLine("The file could not be read:");
+                Console.WriteLine(etext.Message);
+            }
 
 
 
-
-
-            section1 = File.CreateText("Section1.txt");
             section2 = File.CreateText("Section2.txt");
             section3 = File.CreateText("Section3.txt");
 
@@ -47,31 +57,31 @@ namespace ExamScores
 
 
 
-            Random randnum = new Random();
+            
 
 
             for (int i = 0; i < 12; ++i)
             {
-                int num = randnum.Next(55, 99);
-                section1.WriteLine(num);
+                
+                
             }
 
 
             for (int j = 0; j < 8; ++j)
             {
-                int num1 = randnum.Next(55, 99);
-                section2.WriteLine(num1);
+               
+            
             }
 
 
             for (int k = 0; k < 10; ++k)
             {
-                int num3 = randnum.Next(55, 99);
-                section3.WriteLine(num3);
+                
+          
             }
 
 
-            section1.Close();
+           
             section2.Close();
             section3.Close();
 
@@ -80,7 +90,7 @@ namespace ExamScores
 
 
             int nums = 0;
-            while (!section1read.EndOfStream)
+            while (!section1read.EndOfStream && Scores[0][nums] != null)
             {
                 Scores[0][nums] = int.Parse(section1read.ReadLine());
                 ++nums;
