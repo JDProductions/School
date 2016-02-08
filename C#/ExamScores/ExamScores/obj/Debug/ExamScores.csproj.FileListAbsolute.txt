@@ -1,0 +1,9 @@
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\bin\Debug\ExamScores.exe.config
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\bin\Debug\ExamScores.exe
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\bin\Debug\ExamScores.pdb
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.csprojResolveAssemblyReference.cache
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.Form1.resources
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.Properties.Resources.resources
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.csproj.GenerateResource.Cache
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.exe
+c:\users\duboisj\documents\visual studio 2015\Projects\ExamScores\ExamScores\obj\Debug\ExamScores.pdb

@@ -4,3 +4,9 @@ D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\Ja
 D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.exe
 D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.pdb
 D:\School2015\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.csprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.exe.config
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.exe
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.pdb
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.exe
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\bin\Debug\JaggedArrayExamScores.pdb
+C:\Users\duboisj\Desktop\School\C#\JaggedArrayExamScores\JaggedArrayExamScores\obj\Debug\JaggedArrayExamScores.csprojResolveAssemblyReference.cache

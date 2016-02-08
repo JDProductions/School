@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace JaggedArrayExamScores
+namespace ExamScores
 {
-    class Program
+    public partial class Form1 : Form
     {
-        public static void ReadFile()
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             StreamWriter section1;
             StreamWriter section2;
@@ -78,15 +87,15 @@ namespace JaggedArrayExamScores
             }
             for (int i = 0; i < Scores.Length; ++i)
             {
-                Console.WriteLine(Scores[0][i]);
+                listBox1.Items.Add(Scores[0][i]);
             }
             section1read.Close();
         }
     
 
-        static void Main(string[] args)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ReadFile();
+
         }
     }
 }
