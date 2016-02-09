@@ -1,0 +1,9 @@
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.exe.config
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.exe
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.pdb
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.csprojResolveAssemblyReference.cache
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.Form1.resources
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.Properties.Resources.resources
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.csproj.GenerateResource.Cache
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.exe
+c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.pdb

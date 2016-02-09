@@ -20,20 +20,19 @@ namespace PopulationData
         public static void ReadFile()
         {
             StreamReader inputFile = File.OpenText("USPopulation.txt");
-            List<int> PopulationList = new List<int>();                                     //Creates a list and a new object of the list.
+            List<int> PopulationList = new List<int>();                                     
 
-            int startingYear = 1950;                                                        //Creates the starting year for the index.
+            var startingYear = 1950;                                                        
 
-            while (!inputFile.EndOfStream)                                                  //While not at the end of the list.
+            while (!inputFile.EndOfStream)                                                 
             {
-                PopulationList.Add(int.Parse(inputFile.ReadLine()));                        //Read the scores into the list.
+                PopulationList.Add(int.Parse(inputFile.ReadLine()));                       
             }
-            var test = "";
 
             var numberOfYears = PopulationList.Count();
-            int biggest = startingYear + GreatestIncrease(PopulationList);
+            var biggest = startingYear + GreatestIncrease(PopulationList);
             var least = startingYear + LeastIncrease(PopulationList);
-            int average = Average(PopulationList);
+            var average = Average(PopulationList);
             Console.WriteLine("The Biggest is: " + biggest);
             Console.WriteLine("The Least is: " + least);
             Console.WriteLine("The Average is: " + average);
@@ -44,14 +43,14 @@ namespace PopulationData
 
 
 
-        private static int GreatestIncrease(List<int> PopulationList)                              //Imports the population list to Greatest.
+        private static int GreatestIncrease(List<int> PopulationList)                             
 
         {
-            int amountOfChange = 0;
-            int changeInYears = 0;
+            var amountOfChange = 0;
+            var changeInYears = 0;
             int i;
-            int theChange = 0;
-            int currentYear = 0;
+            var theChange = 0;
+            var currentYear = 0;
 
             for (i = 1; i < PopulationList.Count(); i++)
             {
@@ -80,7 +79,6 @@ namespace PopulationData
             {
                 total += PopulationList[i];
                 //theChange = PopulationList[i] + PopulationList[i/ PopulationList.Count();
-                var test = "";
                 
 
             }
