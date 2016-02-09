@@ -7,3 +7,12 @@ c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScores
 c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.csproj.GenerateResource.Cache
 c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.exe
 c:\users\james\documents\visual studio 2015\Projects\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.pdb
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.exe.config
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.exe
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.pdb
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.exe
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\bin\Debug\ExamScoresJagged.pdb
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.csprojResolveAssemblyReference.cache
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.Form1.resources
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.Properties.Resources.resources
+D:\School2015\School\C#\ExamScoresJagged\ExamScoresJagged\obj\Debug\ExamScoresJagged.csproj.GenerateResource.Cache

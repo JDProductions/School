@@ -10,3 +10,9 @@ D:\Projects\School\School\C#\PopulationData\PopulationData\obj\Debug\PopulationD
 D:\Projects\School\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.exe
 D:\Projects\School\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.pdb
 D:\Projects\School\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.csprojResolveAssemblyReference.cache
+D:\School2015\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.exe.config
+D:\School2015\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.exe
+D:\School2015\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.pdb
+D:\School2015\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.exe
+D:\School2015\School\C#\PopulationData\PopulationData\bin\Debug\PopulationData.pdb
+D:\School2015\School\C#\PopulationData\PopulationData\obj\Debug\PopulationData.csprojResolveAssemblyReference.cache

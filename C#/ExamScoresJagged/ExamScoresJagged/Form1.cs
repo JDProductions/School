@@ -115,8 +115,8 @@ namespace ExamScoresJagged
             strAllSectionAverageMarks = (sum1 + sum2 + sum3) / 30;
             MessageBox.Show("The average exam score for all sections " + strAllSectionAverageMarks);
 
-            MessageBox.Show("The highest marks are" +strAllSectionHighestMaxMars +"and that student is from section" +maxindex);
-            MessageBox.Show("The lowest marks are "+strAllSectionHighestMaxMars +"and that student is from section" +minindex);
+            MessageBox.Show("The highest marks are " +strAllSectionHighestMaxMars +" and that student is from section" +maxindex);
+            MessageBox.Show("The lowest marks are "+strAllSectionLowestMaxMars +" and that student is from section" +minindex);
 
 
             // Throw our newly acquired test scores into a ListBox
