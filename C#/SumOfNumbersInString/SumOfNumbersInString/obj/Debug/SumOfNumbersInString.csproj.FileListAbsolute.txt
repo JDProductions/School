@@ -1,0 +1,6 @@
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\bin\Debug\SumOfNumbersInString.exe.config
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\obj\Debug\SumOfNumbersInString.csprojResolveAssemblyReference.cache
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\bin\Debug\SumOfNumbersInString.exe
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\bin\Debug\SumOfNumbersInString.pdb
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\obj\Debug\SumOfNumbersInString.exe
+c:\users\fred asus laptop\documents\visual studio 2015\Projects\SumOfNumbersInString\SumOfNumbersInString\obj\Debug\SumOfNumbersInString.pdb
