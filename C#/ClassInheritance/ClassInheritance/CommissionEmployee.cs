@@ -18,7 +18,7 @@ namespace ClassInheritance
         {
             firstName = first;
             lastName = last;
-            ssn = socialSecurityNumber;
+            socialSecurityNumber = ssn;
             grossSales = sales;
             commissionRate = rate;
         }
@@ -77,7 +77,7 @@ namespace ClassInheritance
         // To return string rep
         public override string ToString()
         {
-            return string.Format("{0}: 1{1}  {2}\n{3}: {4}\n{5}: {6:C}\n{7}:  {8:F2}", "CommissionEmployee", FirstName, LastName, "Social Security Number", SocialSecurityNumber,
+            return string.Format("{0}: {1}  {2}\n{3}: {4}\n{5}: {6:C}\n{7}:  {8:F2}", "CommissionEmployee", FirstName, LastName, "Social Security Number", SocialSecurityNumber,
                 "Gross Sales", GrossSales, "Commission rate", CommissionRate);
         }
 
