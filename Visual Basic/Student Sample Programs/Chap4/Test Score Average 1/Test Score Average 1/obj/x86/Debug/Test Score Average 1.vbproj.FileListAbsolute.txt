@@ -27,3 +27,13 @@ D:\sovb12\Chapt_04\examples\Test Score Average 1\Test Score Average 1\obj\x86\De
 D:\sovb12\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.exe
 D:\sovb12\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.xml
 D:\sovb12\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.pdb
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\bin\Debug\Test Score Average 1.exe
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\bin\Debug\Test Score Average 1.pdb
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\bin\Debug\Test Score Average 1.xml
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.vbprojResolveAssemblyReference.cache
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test_Score_Average_1.Form1.resources
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test_Score_Average_1.Resources.resources
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.vbproj.GenerateResource.Cache
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.exe
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.xml
+D:\School2015\School\Visual Basic\Student Sample Programs\Chap4\Test Score Average 1\Test Score Average 1\obj\x86\Debug\Test Score Average 1.pdb
