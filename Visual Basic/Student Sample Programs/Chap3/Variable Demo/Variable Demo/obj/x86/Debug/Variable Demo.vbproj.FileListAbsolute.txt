@@ -26,3 +26,13 @@ D:\School2015\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Va
 D:\School2015\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.vbproj.GenerateResource.Cache
 D:\School2015\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.xml
 D:\School2015\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\bin\Debug\Variable Demo.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\bin\Debug\Variable Demo.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\bin\Debug\Variable Demo.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.vbprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable_Demo.Form1.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable_Demo.Resources.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.vbproj.GenerateResource.Cache
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Variable Demo\Variable Demo\obj\x86\Debug\Variable Demo.pdb
