@@ -33,3 +33,13 @@ D:\sovb12\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\bin\
 D:\sovb12\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple_Calculator.Form1.resources
 D:\sovb12\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple_Calculator.Resources.resources
 D:\sovb12\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.vbproj.GenerateResource.Cache
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple_Calculator.Form1.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple_Calculator.Resources.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.vbproj.GenerateResource.Cache
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.pdb
