@@ -48,3 +48,6 @@ C:\Users\James\Desktop\Lights\Lights\obj\x86\Debug\Lights.Resources.resources
 C:\Users\James\Desktop\Lights\Lights\obj\x86\Debug\Lights.vbproj.GenerateResource.Cache
 C:\Users\James\Desktop\Lights\Lights\obj\x86\Debug\Lights.xml
 C:\Users\James\Desktop\Lights\Lights\obj\x86\Debug\Lights.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\Lights\Lights\obj\x86\Debug\Lights.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Lights\Lights\obj\x86\Debug\Lights.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Lights\Lights\obj\x86\Debug\Lights.pdb

@@ -37,3 +37,6 @@ C:\Users\James\Desktop\Test Scores\Test Scores\obj\x86\Debug\Test_Scores.Resourc
 C:\Users\James\Desktop\Test Scores\Test Scores\obj\x86\Debug\Test Scores.vbproj.GenerateResource.Cache
 C:\Users\James\Desktop\Test Scores\Test Scores\obj\x86\Debug\Test Scores.xml
 C:\Users\James\Desktop\Test Scores\Test Scores\obj\x86\Debug\Test Scores.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\Test Scores\Test Scores\obj\x86\Debug\Test Scores.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\Test Scores\Test Scores\obj\x86\Debug\Test Scores.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\Test Scores\Test Scores\obj\x86\Debug\Test Scores.pdb

@@ -1,4 +1,5 @@
-﻿Public Class Form1
+﻿'Author: James DuBois
+Public Class Form1
     Private Sub btnSwitchLight_Click(sender As Object, e As EventArgs) Handles btnSwitchLight.Click
  If lblLightState.Text = "Off" Then
             lblLightState.Text = "On"
