@@ -1,0 +1,11 @@
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\bin\Debug\StudentTestScores.exe.config
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.vbprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.Form1.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.Resources.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.vbproj.GenerateResource.Cache
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\bin\Debug\StudentTestScores.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\bin\Debug\StudentTestScores.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\bin\Debug\StudentTestScores.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\StudentTestScores\StudentTestScores\obj\Debug\StudentTestScores.pdb
