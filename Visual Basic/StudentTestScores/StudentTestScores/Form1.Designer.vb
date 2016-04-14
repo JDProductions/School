@@ -68,6 +68,8 @@ Partial Class Form1
         Me.lblAvg5 = New System.Windows.Forms.Label()
         Me.lblAvg6 = New System.Windows.Forms.Label()
         Me.btnCalculateAverage = New System.Windows.Forms.Button()
+        Me.SaveData = New System.Windows.Forms.Button()
+        Me.btnLoad = New System.Windows.Forms.Button()
         Me.SuspendLayout
         '
         'txtName1
@@ -406,11 +408,31 @@ Partial Class Form1
         Me.btnCalculateAverage.Text = "Calculate Average"
         Me.btnCalculateAverage.UseVisualStyleBackColor = true
         '
+        'SaveData
+        '
+        Me.SaveData.Location = New System.Drawing.Point(317, 286)
+        Me.SaveData.Name = "SaveData"
+        Me.SaveData.Size = New System.Drawing.Size(107, 57)
+        Me.SaveData.TabIndex = 46
+        Me.SaveData.Text = "Save"
+        Me.SaveData.UseVisualStyleBackColor = true
+        '
+        'btnLoad
+        '
+        Me.btnLoad.Location = New System.Drawing.Point(201, 286)
+        Me.btnLoad.Name = "btnLoad"
+        Me.btnLoad.Size = New System.Drawing.Size(99, 57)
+        Me.btnLoad.TabIndex = 47
+        Me.btnLoad.Text = "Load"
+        Me.btnLoad.UseVisualStyleBackColor = true
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(602, 364)
+        Me.Controls.Add(Me.btnLoad)
+        Me.Controls.Add(Me.SaveData)
         Me.Controls.Add(Me.btnCalculateAverage)
         Me.Controls.Add(Me.lblAvg6)
         Me.Controls.Add(Me.lblAvg5)
@@ -510,4 +532,6 @@ End Sub
     Friend WithEvents lblAvg5 As Label
     Friend WithEvents lblAvg6 As Label
     Friend WithEvents btnCalculateAverage As Button
+    Friend WithEvents SaveData As Button
+    Friend WithEvents btnLoad As Button
 End Class
