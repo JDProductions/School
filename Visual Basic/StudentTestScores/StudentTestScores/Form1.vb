@@ -57,7 +57,7 @@ End Sub
 
     For Each i As StudentData In StudentsArray
     For Each S as Double in i.dblTestScoresArray
-        dblTotalStd1 += s
+        dblTotalStd2 += s
     Next
 Next
     Dim dblAverage2 As Double = dblTotalStd2/intMAX_SUBSCRIPT_STUDENT_SCORES
