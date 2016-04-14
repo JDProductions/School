@@ -403,7 +403,7 @@ Partial Class Form1
         Me.btnCalculateAverage.Name = "btnCalculateAverage"
         Me.btnCalculateAverage.Size = New System.Drawing.Size(115, 57)
         Me.btnCalculateAverage.TabIndex = 45
-        Me.btnCalculateAverage.Text = "Calculat Average"
+        Me.btnCalculateAverage.Text = "Calculate Average"
         Me.btnCalculateAverage.UseVisualStyleBackColor = true
         '
         'Form1
