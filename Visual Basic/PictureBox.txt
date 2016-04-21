@@ -1,0 +1,30 @@
+' This is a demonstration on how to make an open dialog picture viewer
+
+Public Class Form1
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+
+        Dim myImage1 As New MyImageClass
+        myImage1.LoadPicture(PictureBox1)
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
+
+Public Class MyImageClass
+
+    Public Sub LoadPicture(ByVal thePicture_Box As PictureBox)
+
+        Dim openFileDialog As New OpenFileDialog
+        openFileDialog.InitialDirectory = My.Computer.FileSystem.SpecialDirectories.MyPictures
+        openFileDialog.Filter = "JPEG files (*.jpg)|*.jpg|Bitmap files (*.bmp)|*.bmp"
+        Dim result As DialogResult = openFileDialog.ShowDialog
+        If Not (thePicture_Box) Is Nothing And openFileDialog.FileName <> String.Empty Then
+            thePicture_Box.Image = Image.FromFile(openFileDialog.FileName)
+        End If
+
+    End Sub
+End Class
