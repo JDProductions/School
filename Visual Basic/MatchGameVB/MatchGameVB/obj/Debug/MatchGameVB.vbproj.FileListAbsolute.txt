@@ -9,3 +9,14 @@ c:\users\james\documents\visual studio 2015\Projects\MatchGameVB\MatchGameVB\obj
 c:\users\james\documents\visual studio 2015\Projects\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.exe
 c:\users\james\documents\visual studio 2015\Projects\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.xml
 c:\users\james\documents\visual studio 2015\Projects\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.pdb
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\bin\Debug\MatchGameVB.exe.config
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.exe
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.xml
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.pdb
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\bin\Debug\MatchGameVB.exe
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\bin\Debug\MatchGameVB.pdb
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\bin\Debug\MatchGameVB.xml
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.vbprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.Form1.resources
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.Resources.resources
+C:\Users\James\Desktop\School\Visual Basic\MatchGameVB\MatchGameVB\obj\Debug\MatchGameVB.vbproj.GenerateResource.Cache
