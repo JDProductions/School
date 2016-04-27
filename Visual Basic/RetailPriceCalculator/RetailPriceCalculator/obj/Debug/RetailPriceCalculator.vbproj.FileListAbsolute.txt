@@ -1,0 +1,11 @@
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\bin\Debug\RetailPriceCalculator.exe.config
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\bin\Debug\RetailPriceCalculator.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\bin\Debug\RetailPriceCalculator.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\bin\Debug\RetailPriceCalculator.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.vbprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.Form1.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.Resources.resources
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.vbproj.GenerateResource.Cache
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.xml
+C:\Users\duboisj\Desktop\School\Visual Basic\RetailPriceCalculator\RetailPriceCalculator\obj\Debug\RetailPriceCalculator.pdb
