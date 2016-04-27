@@ -1,0 +1,6 @@
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\bin\Debug\GenericListLab.exe.config
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\bin\Debug\GenericListLab.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\bin\Debug\GenericListLab.pdb
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\obj\Debug\GenericListLab.csprojResolveAssemblyReference.cache
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\obj\Debug\GenericListLab.exe
+C:\Users\duboisj\Desktop\School\Visual Basic\GenericListLab\GenericListLab\obj\Debug\GenericListLab.pdb
