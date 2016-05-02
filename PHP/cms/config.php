@@ -1,6 +1,6 @@
 <?php
 ini_set( "display_errors", true );
-date_default_timezone_set( "Australia/Sydney" );  // http://www.php.net/manual/en/timezones.php
+date_default_timezone_set( "America/Chicago" );  // http://www.php.net/manual/en/timezones.php
 define( "DB_DSN", "mysql:host=localhost:3306;dbname=cms" );
 define( "DB_USERNAME", "root" );
 define( "DB_PASSWORD", "" );

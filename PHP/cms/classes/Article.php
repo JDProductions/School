@@ -1,8 +1,6 @@
 <?php
  
-/**
- * Class to handle articles
- */
+
  
 class Article
 {
@@ -50,11 +48,7 @@ class Article
   }
  
  
-  /**
-  * Sets the object's properties using the edit form post values in the supplied array
-  *
-  * @param assoc The form post values
-  */
+
  
   public function storeFormValues ( $params ) {
  
@@ -73,12 +67,7 @@ class Article
   }
  
  
-  /**
-  * Returns an Article object matching the given article ID
-  *
-  * @param int The article ID
-  * @return Article|false The article object, or false if the record was not found or there was a problem
-  */
+
  
   public static function getById( $id ) {
     $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
@@ -92,14 +81,7 @@ class Article
   }
  
  
-  /**
-  * Returns all (or a range of) Article objects in the DB
-  *
-  * @param int Optional The number of rows to return (default=all)
-  * @param string Optional column by which to order the articles (default="publicationDate DESC")
-  * @return Array|false A two-element array : results => array, a list of Article objects; totalRows => Total number of articles
-  */
- 
+
   public static function getList( $numRows=1000000, $order="publicationDate DESC" ) {
     $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
     $sql = "SELECT SQL_CALC_FOUND_ROWS *, UNIX_TIMESTAMP(publicationDate) AS publicationDate FROM articles
@@ -123,9 +105,7 @@ class Article
   }
  
  
-  /**
-  * Inserts the current Article object into the database, and sets its ID property.
-  */
+
  
   public function insert() {
  
@@ -146,13 +126,9 @@ class Article
   }
  
  
-  /**
-  * Updates the current Article object in the database.
-  */
- 
+
   public function update() {
  
-    // Does the Article object have an ID?
     if ( is_null( $this->id ) ) trigger_error ( "Article::update(): Attempt to update an Article object that does not have its ID property set.", E_USER_ERROR );
     
     // Update the Article
@@ -168,17 +144,13 @@ class Article
     $conn = null;
   }
  
- 
-  /**
-  * Deletes the current Article object from the database.
-  */
+
  
   public function delete() {
  
-    // Does the Article object have an ID?
+
     if ( is_null( $this->id ) ) trigger_error ( "Article::delete(): Attempt to delete an Article object that does not have its ID property set.", E_USER_ERROR );
- 
-    // Delete the Article
+
     $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
     $st = $conn->prepare ( "DELETE FROM articles WHERE id = :id LIMIT 1" );
     $st->bindValue( ":id", $this->id, PDO::PARAM_INT );

@@ -34,28 +34,24 @@ switch ( $action ) {
 function login() {
  
   $results = array();
-  $results['pageTitle'] = "Admin Login | Widget News";
+  $results['pageTitle'] = "Server Side Scripting CMS";
  
   if ( isset( $_POST['login'] ) ) {
  
-    // User has posted the login form: attempt to log the user in
  
     if ( $_POST['username'] == ADMIN_USERNAME && $_POST['password'] == ADMIN_PASSWORD ) {
  
-      // Login successful: Create a session and redirect to the admin homepage
       $_SESSION['username'] = ADMIN_USERNAME;
       header( "Location: admin.php" );
  
     } else {
  
-      // Login failed: display an error message to the user
       $results['errorMessage'] = "Incorrect username or password. Please try again.";
       require( TEMPLATE_PATH . "/loginForm.php" );
     }
  
   } else {
  
-    // User has not posted the login form yet: display the form
     require( TEMPLATE_PATH . "/loginForm.php" );
   }
  
@@ -76,7 +72,6 @@ function newArticle() {
  
   if ( isset( $_POST['saveChanges'] ) ) {
  
-    // User has posted the article edit form: save the new article
     $article = new Article;
     $article->storeFormValues( $_POST );
     $article->insert();
@@ -84,11 +79,10 @@ function newArticle() {
  
   } elseif ( isset( $_POST['cancel'] ) ) {
  
-    // User has cancelled their edits: return to the article list
+
     header( "Location: admin.php" );
   } else {
  
-    // User has not posted the article edit form yet: display the form
     $results['article'] = new Article;
     require( TEMPLATE_PATH . "/editArticle.php" );
   }
@@ -104,7 +98,6 @@ function editArticle() {
  
   if ( isset( $_POST['saveChanges'] ) ) {
  
-    // User has posted the article edit form: save the article changes
  
     if ( !$article = Article::getById( (int)$_POST['articleId'] ) ) {
       header( "Location: admin.php?error=articleNotFound" );
@@ -117,11 +110,10 @@ function editArticle() {
  
   } elseif ( isset( $_POST['cancel'] ) ) {
  
-    // User has cancelled their edits: return to the article list
     header( "Location: admin.php" );
   } else {
  
-    // User has not posted the article edit form yet: display the form
+
     $results['article'] = Article::getById( (int)$_GET['articleId'] );
     require( TEMPLATE_PATH . "/editArticle.php" );
   }
