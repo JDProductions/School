@@ -49,7 +49,7 @@
       <nav class="vertical">
          <ul>
             <li class="newgroup"><a href="#">Home</a></li>
-            <li class="newgroup"><a href="IfStatements.php">If Statements</a></li>
+            <li class="newgroup"><a href="IfStatements">If Statements</a></li>
             <li><a href="#">Buttons</a></li>
             <li><a href="#">Calendars</a></li>
             <li><a href="#">Cookies</a></li>
@@ -78,8 +78,15 @@
 
       <section>
      <h1>PHP W3</h1>
-     <p>This is a site where you can come to figure out how to use PHP better!
-     </p>
+                  <p>
+                  <?php
+         $txt = "Hello !";
+         $x = 5;
+         $y = 10.5;
+
+         ?>
+</p>
+
   </section>
 
 
