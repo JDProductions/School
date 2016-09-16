@@ -34,15 +34,22 @@ public class CourseGrades {
     public static void main(String[] args) {
         Essay essay = new Essay(10,20,30,500);
         CourseGrades grades = new CourseGrades();
+        PassFailExam pass = new PassFailExam();
+        FinalExam finalExam = new FinalExam();
+
         GradedActivity activity = new GradedActivity(10);
         grades.setLab(activity);
 
-        activity.setScore(50);
-        grades.setPassFailExam(activity);
+        grades.setPassFailExam(pass);
+        pass.setScore(50);
+
+        finalExam.setScore(70);
+
 
         System.out.println("Essay Score: "+ essay.getScore());
         System.out.println("Lab Score: " + activity.getScore());
-        System.out.println("PassFail: " );
+        System.out.println("PassFail: " + pass.getScore());
+        System.out.println("Final Exam Score: " + finalExam.getScore());
 
     }
 
