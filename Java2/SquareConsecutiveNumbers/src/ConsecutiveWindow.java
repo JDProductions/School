@@ -16,7 +16,7 @@ import javax.swing.JButton;
 
 public class ConsecutiveWindow extends JFrame {
 
-    private int n = 5;
+    private int n = 10;
     private int coulmns = (int)Math.pow(n,2);
     JFrame frame = new JFrame("Testing");
 
