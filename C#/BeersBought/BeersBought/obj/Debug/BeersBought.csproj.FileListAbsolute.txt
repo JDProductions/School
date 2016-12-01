@@ -1,0 +1,10 @@
+c:\users\james\documents\visual studio 2015\Projects\BeersBought\BeersBought\bin\Debug\BeersBought.exe.config
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\bin\Debug\BeersBought.exe
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\bin\Debug\BeersBought.pdb
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.csprojResolveAssemblyReference.cache
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.Form1.resources
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.Properties.Resources.resources
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.csproj.GenerateResource.Cache
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.exe
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\obj\Debug\BeersBought.pdb
+C:\Users\James\documents\visual studio 2015\Projects\BeersBought\BeersBought\bin\Debug\MySql.Data.dll
