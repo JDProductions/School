@@ -25,18 +25,23 @@ namespace BeersBought
             // Take text from the user
             // Set id in placeholder
             // Retrieve data and set quantity text
-            var connectionString = dbConnect.GetConnectionString();
             var customerID = textCustomerID.Text;
-
-            using (var cmd = new System.Data.SqlClient.SqlCommand())
+            DatabaseConnect connect = new DatabaseConnect();
+            var list = connect.Select();
+            lblFirstName.Text = list[0][0].ToString();
+            lblLastName.Text = list[1][0].ToString();
+            foreach (var item in list)
             {
-                DatabaseConnect connect = new DatabaseConnect();
-                connect.Connect();
-                cmd.Connection = connect;
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT firstname, lastname FROM customers WHERE cid = @CustomerID";
-                cmd.Parameters.AddWithValue("@CustomerID", customerID);
+                //MessageBox.Show(item[2]).ToString();
+              
+                //lblLastName.Text = item[1].ToString();
+                foreach (var item2 in item)
+                {
+                    quantityBought.Text = item[0].ToString();
+                }
+               
             }
+           
         }
     }
 }

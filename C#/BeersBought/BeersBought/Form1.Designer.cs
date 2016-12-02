@@ -36,6 +36,10 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.quantityBought = new System.Windows.Forms.Label();
+            this.firstName = new System.Windows.Forms.Label();
+            this.lastName = new System.Windows.Forms.Label();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.lblFirstName = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -68,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 79);
+            this.label2.Location = new System.Drawing.Point(50, 118);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 3;
@@ -107,17 +111,57 @@
             // quantityBought
             // 
             this.quantityBought.AutoSize = true;
-            this.quantityBought.Location = new System.Drawing.Point(174, 79);
+            this.quantityBought.Location = new System.Drawing.Point(160, 118);
             this.quantityBought.Name = "quantityBought";
             this.quantityBought.Size = new System.Drawing.Size(35, 13);
             this.quantityBought.TabIndex = 7;
             this.quantityBought.Text = "label3";
+            // 
+            // firstName
+            // 
+            this.firstName.AutoSize = true;
+            this.firstName.Location = new System.Drawing.Point(50, 66);
+            this.firstName.Name = "firstName";
+            this.firstName.Size = new System.Drawing.Size(57, 13);
+            this.firstName.TabIndex = 8;
+            this.firstName.Text = "FirstName:";
+            // 
+            // lastName
+            // 
+            this.lastName.AutoSize = true;
+            this.lastName.Location = new System.Drawing.Point(50, 89);
+            this.lastName.Name = "lastName";
+            this.lastName.Size = new System.Drawing.Size(58, 13);
+            this.lastName.TabIndex = 9;
+            this.lastName.Text = "LastName:";
+            // 
+            // lblLastName
+            // 
+            this.lblLastName.AutoSize = true;
+            this.lblLastName.Location = new System.Drawing.Point(160, 89);
+            this.lblLastName.Name = "lblLastName";
+            this.lblLastName.Size = new System.Drawing.Size(35, 13);
+            this.lblLastName.TabIndex = 10;
+            this.lblLastName.Text = "label3";
+            // 
+            // lblFirstName
+            // 
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Location = new System.Drawing.Point(160, 66);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(35, 13);
+            this.lblFirstName.TabIndex = 11;
+            this.lblFirstName.Text = "label3";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 281);
+            this.Controls.Add(this.lblFirstName);
+            this.Controls.Add(this.lblLastName);
+            this.Controls.Add(this.lastName);
+            this.Controls.Add(this.firstName);
             this.Controls.Add(this.quantityBought);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -142,6 +186,10 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label quantityBought;
+        private System.Windows.Forms.Label firstName;
+        private System.Windows.Forms.Label lastName;
+        private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.Label lblFirstName;
     }
 }
 

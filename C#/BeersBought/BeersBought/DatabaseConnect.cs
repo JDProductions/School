@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -10,35 +11,140 @@ namespace BeersBought
 {
     class DatabaseConnect
     {
+        private MySqlConnection connection;
+        private string server;
+        private string database;
+        private string uid;
+        private string password;
 
-        private String  myConnectionString = "server=127.0.0.1;uid=root;" +
-    "pwd=Chicken12;database=pos;";
-
-        public String GetConnectionString()
+        //Initialize values
+        private void Initialize()
         {
-            return myConnectionString;
+            server = "localhost";
+            database = "pos";
+            uid = "root";
+            password = "Chicken12";
+            string connectionString;
+            connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+
+            connection = new MySqlConnection(connectionString);
         }
-        public void Connect()
+
+        public DatabaseConnect()
         {
+            Initialize();
+        }
 
-
-
+        //open connection to database
+        private bool OpenConnection()
+        {
             try
             {
-                var conn = new MySql.Data.MySqlClient.MySqlConnection();
-                conn.ConnectionString = myConnectionString;
-                conn.Open();
-                MessageBox.Show("Connected");
+                connection.Open();
+                return true;
             }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
+            catch (MySqlException ex)
             {
-                MessageBox.Show(ex.Message);
+                //When handling errors, you can your application's response based 
+                //on the error number.
+                //The two most common error numbers when connecting are as follows:
+                //0: Cannot connect to server.
+                //1045: Invalid user name and/or password.
+                switch (ex.Number)
+                {
+                    case 0:
+                        MessageBox.Show("Cannot connect to server.  Contact administrator");
+                        break;
+
+                    case 1045:
+                        MessageBox.Show("Invalid username/password, please try again");
+                        break;
+                }
+                return false;
             }
         }
 
-        public static implicit operator SqlConnection(DatabaseConnect v)
+        //Close connection
+        private bool CloseConnection()
         {
-            throw new NotImplementedException();
+            try
+            {
+                connection.Close();
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
         }
-    }
+
+        //Insert statement
+        public void Insert()
+        {
+        }
+
+        //Update statement
+        public void Update()
+        {
+        }
+
+        //Delete statement
+        public void Delete()
+        {
+        }
+
+        public List<string>[] Select()
+        {
+            string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
+
+            //Create a list to store the result
+            List<string>[] list = new List<string>[3];
+            list[0] = new List<string>();
+            list[1] = new List<string>();
+            list[2] = new List<string>();
+
+            //Open connection
+            connection.Open();
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    list[0].Add(dataReader["firstname"] + "");
+                    list[1].Add(dataReader["lastname"] + "");
+                    list[2].Add(dataReader["quanitybought"] + "");
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                this.CloseConnection();
+
+                //return list to be displayed
+                return list;
+            
 }
+        }
+
+        ////Count statement
+        //public int Count()
+        //{
+        //}
+
+        ////Backup
+        //public void Backup()
+        //{
+        //}
+
+        ////Restore
+        //public void Restore()
+        //{
+        //}
+    }
+
