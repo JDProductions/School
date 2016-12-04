@@ -162,7 +162,7 @@ namespace BeersBought
         //Delete statement
         public void Delete()
         {
-            query = string.Format("DELETE FROM customers WHERE `cid`= {0};", mDeleteTextBox);
+            query = string.Format("DELETE FROM customers WHERE `cid`= {0};", mDeleteTextBox.Text);
 
             if (this.OpenConnection() == true)
             {
