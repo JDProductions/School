@@ -34,7 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBudLight = new System.Windows.Forms.Button();
             this.quantityBought = new System.Windows.Forms.Label();
             this.firstName = new System.Windows.Forms.Label();
             this.lastName = new System.Windows.Forms.Label();
@@ -98,15 +98,16 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBudLight
             // 
-            this.button2.BackgroundImage = global::BeersBought.Properties.Resources._4323923_54618c92f00c5;
-            this.button2.Location = new System.Drawing.Point(15, 155);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 119);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBudLight.BackgroundImage = global::BeersBought.Properties.Resources._4323923_54618c92f00c5;
+            this.btnBudLight.Location = new System.Drawing.Point(15, 155);
+            this.btnBudLight.Name = "btnBudLight";
+            this.btnBudLight.Size = new System.Drawing.Size(168, 119);
+            this.btnBudLight.TabIndex = 4;
+            this.btnBudLight.Text = "button2";
+            this.btnBudLight.UseVisualStyleBackColor = true;
+            this.btnBudLight.Click += new System.EventHandler(this.btnBudLight_Click);
             // 
             // quantityBought
             // 
@@ -165,7 +166,7 @@
             this.Controls.Add(this.quantityBought);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnBudLight);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonSearchID);
             this.Controls.Add(label1);
@@ -182,7 +183,7 @@
         private System.Windows.Forms.TextBox textCustomerID;
         private System.Windows.Forms.Button buttonSearchID;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBudLight;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label quantityBought;

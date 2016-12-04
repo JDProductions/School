@@ -25,7 +25,6 @@ namespace BeersBought
             // Take text from the user
             // Set id in placeholder
             // Retrieve data and set quantity text
-            var customerID = textCustomerID.Text;
             DatabaseConnect connect = new DatabaseConnect();
             var list = connect.Select();
             lblFirstName.Text = list[0][0].ToString();
@@ -42,6 +41,17 @@ namespace BeersBought
                
             }
            
+        }
+
+        private void btnBudLight_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        public string SetText
+        {
+            get { return textCustomerID.Text; }
+            set { textCustomerID.Text = value; }
         }
     }
 }

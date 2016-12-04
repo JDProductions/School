@@ -16,6 +16,18 @@ namespace BeersBought
         private string database;
         private string uid;
         private string password;
+        private string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
+        Form1 form1 = new Form1();
+
+        public String getstring()
+        {
+            return query;
+        }
+
+        public DatabaseConnect(Form1 form)
+        {
+            var test = form.SetText;
+        }
 
         //Initialize values
         private void Initialize()
@@ -23,7 +35,7 @@ namespace BeersBought
             server = "localhost";
             database = "pos";
             uid = "root";
-            password = "Chicken12";
+            password = "Midviewk12";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -97,7 +109,10 @@ namespace BeersBought
 
         public List<string>[] Select()
         {
-            string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
+            //string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
+            query = string.Format("SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = {0} AND  s.cid = {1})",customerID,customerID);
+
+
 
             //Create a list to store the result
             List<string>[] list = new List<string>[3];
