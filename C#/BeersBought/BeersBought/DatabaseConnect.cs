@@ -20,6 +20,7 @@ namespace BeersBought
         private static Form1 form1 = new Form1();
         private TextBox box;
         private TextBox pbeerName, pcompanyName;
+        private TextBox mDeleteTextBox;
 
         public String getstring()
         {
@@ -43,6 +44,14 @@ namespace BeersBought
             pbeerName = beerName;
             pcompanyName = companyName;
         }
+
+        public void GetCustomerIDToDelete(TextBox customer)
+        {
+            mDeleteTextBox = customer;
+            var test = "sweet";
+        }
+
+
 
         //Initialize values
         private void Initialize()
@@ -153,6 +162,14 @@ namespace BeersBought
         //Delete statement
         public void Delete()
         {
+            query = string.Format("DELETE FROM customers WHERE `cid`= {0};", mDeleteTextBox);
+
+            if (this.OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                this.CloseConnection();
+            }
         }
 
         public List<string>[] Select()

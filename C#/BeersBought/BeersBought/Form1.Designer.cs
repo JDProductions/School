@@ -43,6 +43,9 @@
             this.txtBreweryName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtDeleteCustomer = new System.Windows.Forms.TextBox();
+            this.btnDeleteCustomer = new System.Windows.Forms.Button();
             label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -179,11 +182,40 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "Brewery Name";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(328, 155);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(102, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Delete Customer ID:";
+            // 
+            // txtDeleteCustomer
+            // 
+            this.txtDeleteCustomer.Location = new System.Drawing.Point(328, 172);
+            this.txtDeleteCustomer.Name = "txtDeleteCustomer";
+            this.txtDeleteCustomer.Size = new System.Drawing.Size(100, 20);
+            this.txtDeleteCustomer.TabIndex = 18;
+            // 
+            // btnDeleteCustomer
+            // 
+            this.btnDeleteCustomer.Location = new System.Drawing.Point(471, 169);
+            this.btnDeleteCustomer.Name = "btnDeleteCustomer";
+            this.btnDeleteCustomer.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteCustomer.TabIndex = 19;
+            this.btnDeleteCustomer.Text = "Delete";
+            this.btnDeleteCustomer.UseVisualStyleBackColor = true;
+            this.btnDeleteCustomer.Click += new System.EventHandler(this.btnDeleteCustomer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 281);
+            this.Controls.Add(this.btnDeleteCustomer);
+            this.Controls.Add(this.txtDeleteCustomer);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtBreweryName);
@@ -222,6 +254,9 @@
         private System.Windows.Forms.TextBox txtBreweryName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtDeleteCustomer;
+        private System.Windows.Forms.Button btnDeleteCustomer;
     }
 }
 

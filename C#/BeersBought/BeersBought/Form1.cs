@@ -16,6 +16,7 @@ namespace BeersBought
 
         public TextBox test = new TextBox();
         public TextBox beerName, companyName = new TextBox();
+        public TextBox deleteCustomer = new TextBox();
 
 
         private DatabaseConnect dbConnect = new DatabaseConnect();
@@ -45,6 +46,15 @@ namespace BeersBought
             DatabaseConnect connect = new DatabaseConnect();
             connect.GeTextBox(test);
             connect.Update();
+            MessageBox.Show("Database Quanity Updated, Please Check your database");
+        }
+
+        private void btnDeleteCustomer_Click(object sender, EventArgs e)
+        {
+            DatabaseConnect connect = new DatabaseConnect();
+            deleteCustomer = txtDeleteCustomer;
+            connect.GetCustomerIDToDelete(deleteCustomer);
+            connect.Delete();
         }
 
         private void btnAddBeer_Click(object sender, EventArgs e)
@@ -54,7 +64,7 @@ namespace BeersBought
             companyName = txtBreweryName;
             connect.GetCompanyInfo(beerName,companyName);
             connect.Insert();
-            MessageBox.Show("Beer Added, Check your Database!");
+            MessageBox.Show("New Beer Added, Check your Database!");
         }
     }
 }
