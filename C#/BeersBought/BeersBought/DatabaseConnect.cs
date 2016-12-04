@@ -17,7 +17,8 @@ namespace BeersBought
         private string uid;
         private string password;
         private string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
-        Form1 form1 = new Form1();
+        private static Form1 form1 = new Form1();
+        private TextBox box;
 
         public String getstring()
         {
@@ -26,7 +27,14 @@ namespace BeersBought
 
         public DatabaseConnect(Form1 form)
         {
-            var test = form.SetText;
+           
+        }
+
+        public void GeTextBox(TextBox something)
+        {
+            box = something;
+            var test = "poop";
+
         }
 
         //Initialize values
@@ -110,7 +118,8 @@ namespace BeersBought
         public List<string>[] Select()
         {
             //string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
-            query = string.Format("SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = {0} AND  s.cid = {1})",customerID,customerID);
+            //var customerID = form1.GetText();
+            query = string.Format("SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = {0} AND  s.cid = {1})",box.Text,box.Text);
 
 
 

@@ -13,6 +13,10 @@ namespace BeersBought
 {
     public partial class Form1 : Form
     {
+
+        public TextBox test = new TextBox();
+
+
         private DatabaseConnect dbConnect = new DatabaseConnect();
         public Form1()
         {
@@ -26,6 +30,8 @@ namespace BeersBought
             // Set id in placeholder
             // Retrieve data and set quantity text
             DatabaseConnect connect = new DatabaseConnect();
+            test.Text = textCustomerID.Text;
+            connect.GeTextBox(test);
             var list = connect.Select();
             lblFirstName.Text = list[0][0].ToString();
             lblLastName.Text = list[1][0].ToString();
@@ -48,10 +54,7 @@ namespace BeersBought
             
         }
 
-        public string SetText
-        {
-            get { return textCustomerID.Text; }
-            set { textCustomerID.Text = value; }
-        }
+
+
     }
 }
