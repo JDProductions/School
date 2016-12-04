@@ -32,14 +32,17 @@
             this.textCustomerID = new System.Windows.Forms.TextBox();
             this.buttonSearchID = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnBudLight = new System.Windows.Forms.Button();
             this.quantityBought = new System.Windows.Forms.Label();
             this.firstName = new System.Windows.Forms.Label();
             this.lastName = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
+            this.txtBeerName = new System.Windows.Forms.TextBox();
+            this.btnAddBeer = new System.Windows.Forms.Button();
+            this.txtBreweryName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -77,26 +80,6 @@
             this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Beers Bought:";
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::BeersBought.Properties.Resources.coors_light_inflatable_rafts_point_of_sale__large;
-            this.button4.Location = new System.Drawing.Point(363, 155);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 119);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::BeersBought.Properties.Resources.ba19718cb2c2c335a1bcbb98d0d50c14;
-            this.button3.Location = new System.Drawing.Point(189, 155);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 119);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // btnBudLight
             // 
@@ -154,18 +137,63 @@
             this.lblFirstName.TabIndex = 11;
             this.lblFirstName.Text = "label3";
             // 
+            // txtBeerName
+            // 
+            this.txtBeerName.Location = new System.Drawing.Point(325, 82);
+            this.txtBeerName.Name = "txtBeerName";
+            this.txtBeerName.Size = new System.Drawing.Size(100, 20);
+            this.txtBeerName.TabIndex = 12;
+            // 
+            // btnAddBeer
+            // 
+            this.btnAddBeer.Location = new System.Drawing.Point(471, 108);
+            this.btnAddBeer.Name = "btnAddBeer";
+            this.btnAddBeer.Size = new System.Drawing.Size(75, 23);
+            this.btnAddBeer.TabIndex = 13;
+            this.btnAddBeer.Text = "Add";
+            this.btnAddBeer.UseVisualStyleBackColor = true;
+            this.btnAddBeer.Click += new System.EventHandler(this.btnAddBeer_Click);
+            // 
+            // txtBreweryName
+            // 
+            this.txtBreweryName.Location = new System.Drawing.Point(446, 82);
+            this.txtBreweryName.Name = "txtBreweryName";
+            this.txtBreweryName.Size = new System.Drawing.Size(100, 20);
+            this.txtBreweryName.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(325, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Beer Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(443, 66);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Brewery Name";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 281);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtBreweryName);
+            this.Controls.Add(this.btnAddBeer);
+            this.Controls.Add(this.txtBeerName);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.lastName);
             this.Controls.Add(this.firstName);
             this.Controls.Add(this.quantityBought);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnBudLight);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonSearchID);
@@ -184,13 +212,16 @@
         private System.Windows.Forms.Button buttonSearchID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnBudLight;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label quantityBought;
         private System.Windows.Forms.Label firstName;
         private System.Windows.Forms.Label lastName;
         private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.Label lblFirstName;
+        private System.Windows.Forms.TextBox txtBeerName;
+        private System.Windows.Forms.Button btnAddBeer;
+        private System.Windows.Forms.TextBox txtBreweryName;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

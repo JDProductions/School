@@ -16,9 +16,10 @@ namespace BeersBought
         private string database;
         private string uid;
         private string password;
-        private string query = "SELECT firstname, lastname, quanitybought FROM customers s, beersbought a WHERE exists(SELECT 'x' FROM beersbought b WHERE b.cid = s.cid)";
+        private string query = null;
         private static Form1 form1 = new Form1();
         private TextBox box;
+        private TextBox pbeerName, pcompanyName;
 
         public String getstring()
         {
@@ -35,6 +36,12 @@ namespace BeersBought
             box = something;
             var test = "poop";
 
+        }
+
+        public void GetCompanyInfo(TextBox beerName, TextBox companyName)
+        {
+            pbeerName = beerName;
+            pcompanyName = companyName;
         }
 
         //Initialize values
@@ -103,12 +110,45 @@ namespace BeersBought
         //Insert statement
         public void Insert()
         {
+            query = string.Format("INSERT INTO `pos`.`beers` (`title`, `brewery`) VALUES ('{0}', '{1}');",pbeerName.Text,pcompanyName.Text);
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Execute command
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
         }
 
         //Update statement
         public void Update()
         {
+            query = string.Format("UPDATE `pos`.`beersbought` SET `quanitybought`= quanitybought+1 WHERE `cid`= {0} ;",box.Text);
+
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = query;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
+
+                //Execute query
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
         }
+    
 
         //Delete statement
         public void Delete()

@@ -15,6 +15,7 @@ namespace BeersBought
     {
 
         public TextBox test = new TextBox();
+        public TextBox beerName, companyName = new TextBox();
 
 
         private DatabaseConnect dbConnect = new DatabaseConnect();
@@ -35,26 +36,25 @@ namespace BeersBought
             var list = connect.Select();
             lblFirstName.Text = list[0][0].ToString();
             lblLastName.Text = list[1][0].ToString();
-            foreach (var item in list)
-            {
-                //MessageBox.Show(item[2]).ToString();
-              
-                //lblLastName.Text = item[1].ToString();
-                foreach (var item2 in item)
-                {
-                    quantityBought.Text = item[0].ToString();
-                }
-               
-            }
-           
+            quantityBought.Text = list[2][0].ToString();
+
         }
 
         private void btnBudLight_Click(object sender, EventArgs e)
         {
-            
+            DatabaseConnect connect = new DatabaseConnect();
+            connect.GeTextBox(test);
+            connect.Update();
         }
 
-
-
+        private void btnAddBeer_Click(object sender, EventArgs e)
+        {
+            DatabaseConnect  connect = new DatabaseConnect();
+            beerName = txtBeerName;
+            companyName = txtBreweryName;
+            connect.GetCompanyInfo(beerName,companyName);
+            connect.Insert();
+            MessageBox.Show("Beer Added, Check your Database!");
+        }
     }
 }
