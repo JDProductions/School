@@ -91,7 +91,6 @@
             this.btnBudLight.Name = "btnBudLight";
             this.btnBudLight.Size = new System.Drawing.Size(168, 119);
             this.btnBudLight.TabIndex = 4;
-            this.btnBudLight.Text = "button2";
             this.btnBudLight.UseVisualStyleBackColor = true;
             this.btnBudLight.Click += new System.EventHandler(this.btnBudLight_Click);
             // 
@@ -100,9 +99,8 @@
             this.quantityBought.AutoSize = true;
             this.quantityBought.Location = new System.Drawing.Point(160, 118);
             this.quantityBought.Name = "quantityBought";
-            this.quantityBought.Size = new System.Drawing.Size(35, 13);
+            this.quantityBought.Size = new System.Drawing.Size(0, 13);
             this.quantityBought.TabIndex = 7;
-            this.quantityBought.Text = "label3";
             // 
             // firstName
             // 
@@ -127,18 +125,16 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Location = new System.Drawing.Point(160, 89);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(35, 13);
+            this.lblLastName.Size = new System.Drawing.Size(0, 13);
             this.lblLastName.TabIndex = 10;
-            this.lblLastName.Text = "label3";
             // 
             // lblFirstName
             // 
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Location = new System.Drawing.Point(160, 66);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(35, 13);
+            this.lblFirstName.Size = new System.Drawing.Size(0, 13);
             this.lblFirstName.TabIndex = 11;
-            this.lblFirstName.Text = "label3";
             // 
             // txtBeerName
             // 
@@ -232,7 +228,7 @@
             this.Controls.Add(label1);
             this.Controls.Add(this.textCustomerID);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "BeersBought";
             this.ResumeLayout(false);
             this.PerformLayout();
 

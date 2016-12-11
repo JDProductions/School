@@ -55,6 +55,7 @@ namespace BeersBought
             deleteCustomer = txtDeleteCustomer;
             connect.GetCustomerIDToDelete(deleteCustomer);
             connect.Delete();
+            MessageBox.Show("Customer Was Deleted");
         }
 
         private void btnAddBeer_Click(object sender, EventArgs e)

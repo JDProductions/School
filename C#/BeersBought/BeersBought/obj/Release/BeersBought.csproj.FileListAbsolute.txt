@@ -1,0 +1,9 @@
+D:\School\C#\BeersBought\BeersBought\bin\Release\BeersBought.exe.config
+D:\School\C#\BeersBought\BeersBought\bin\Release\BeersBought.exe
+D:\School\C#\BeersBought\BeersBought\bin\Release\BeersBought.pdb
+D:\School\C#\BeersBought\BeersBought\bin\Release\MySql.Data.dll
+D:\School\C#\BeersBought\BeersBought\obj\Release\BeersBought.Form1.resources
+D:\School\C#\BeersBought\BeersBought\obj\Release\BeersBought.Properties.Resources.resources
+D:\School\C#\BeersBought\BeersBought\obj\Release\BeersBought.csproj.GenerateResource.Cache
+D:\School\C#\BeersBought\BeersBought\obj\Release\BeersBought.exe
+D:\School\C#\BeersBought\BeersBought\obj\Release\BeersBought.pdb

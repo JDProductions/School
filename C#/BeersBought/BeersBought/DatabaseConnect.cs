@@ -35,7 +35,7 @@ namespace BeersBought
         public void GeTextBox(TextBox something)
         {
             box = something;
-            var test = "poop";
+           
 
         }
 
@@ -59,7 +59,7 @@ namespace BeersBought
             server = "localhost";
             database = "pos";
             uid = "root";
-            password = "Midviewk12";
+            password = "";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
